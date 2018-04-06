@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frag1_need"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:src="@drawable/need_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@drawable/need_description"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+    <ImageView
+        android:src="@drawable/need_kind"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <ImageView
+        android:src="@drawable/need_time"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <ImageView
+        android:src="@drawable/need_address"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <ImageView
+        android:src="@drawable/need_price"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <ImageView
+        android:src="@drawable/need_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <ImageView
+        android:src="@drawable/need_sub"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+    <ImageView
+        android:src="@drawable/need_help"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+</LinearLayout>

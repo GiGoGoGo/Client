@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/info_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <ImageView
+        android:src="@drawable/info_body1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <ImageView
+        android:src="@drawable/info_body2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:src="@drawable/info_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@drawable/info_organiza"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@drawable/info_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@drawable/info_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

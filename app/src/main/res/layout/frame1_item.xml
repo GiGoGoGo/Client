@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jude.rollviewpager.RollPagerView
+        android:id="@+id/roll_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:rollviewpager_play_delay="3000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingBottom="0dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_gift"
+                android:background="@drawable/gift"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="礼品兑换"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_need"
+                android:background="@drawable/need"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="发布需求"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_accept"
+                android:background="@drawable/accept"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="承接服务"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_product"
+                android:background="@drawable/product"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="商城产品"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="185dp" />
+
+    <ImageView
+        android:src="@drawable/task1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/imageView2" />
+
+</LinearLayout>
